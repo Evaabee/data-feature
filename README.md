@@ -39,7 +39,7 @@ Arrival City: Heathrow
 Weather in Dubai: Rain, Overcast
 Precipitation Probability: 100.0%
 Wind Speed: 15.0 mph
-⚠️ Bad weather detected in Dubai.
+Bad weather detected in Dubai.
 The flight is currently on time, but bad weather might cause a delay.
 
 Weather in Heathrow: Overcast
