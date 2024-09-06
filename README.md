@@ -37,7 +37,7 @@ Flight Status for DL1087: on-time
 Current Weather in London,UK: Rain, Overcast
 Precipitation Probability: 100.0%
 Wind Speed: 11.0 mph
-⚠️ Bad weather detected in London,UK.
+Bad weather detected in London,UK.
 The flight is currently on time, but bad weather may cause delays.
 ```
 
