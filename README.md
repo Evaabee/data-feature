@@ -19,28 +19,33 @@ Make sure to add these API keys to the **SECRETS** tab in Google Colab or store 
 - Run the notebook cells in order.
 - When prompted, enter:
   - A **flight number** (e.g., `DL1087`).
-  - A **city name** (e.g., `London,UK`) to retrieve the current weather.
   
+The notebook will automatically fetch the weather for both the departure and arrival cities based on the flight number.
+
 The notebook will then display:
 - The flight status (e.g., on-time, delayed).
-- The current weather conditions in the specified city.
+- The current weather conditions in both the departure and arrival cities.
 - Whether the flight might be affected by bad weather based on precipitation, wind speed, or weather conditions such as rain or snow.
 
 ## **Example Output**
 
 ```
 Enter the flight number (e.g., DL1087): DL1087
-Enter the city for weather (e.g., London,UK): London,UK
 
 Flight Status for DL1087: on-time
+Departure City: Dubai
+Arrival City: Heathrow
 
-Current Weather in London,UK: Rain, Overcast
+Weather in Dubai: Rain, Overcast
 Precipitation Probability: 100.0%
-Wind Speed: 11.0 mph
-Bad weather detected in London,UK.
-The flight is currently on time, but bad weather may cause delays.
+Wind Speed: 15.0 mph
+⚠️ Bad weather detected in Dubai.
+The flight is currently on time, but bad weather might cause a delay.
+
+Weather in Heathrow: Overcast
+Precipitation Probability: 30.0%
+Wind Speed: 10.0 mph
 ```
 
 ## **Note**
 This is a simple prototype intended for educational purposes. In a real-world application, additional features such as a user interface, detailed weather forecasts, real-time updates, multiple flights, and more robust error handling would be implemented.
-
